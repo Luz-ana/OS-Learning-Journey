@@ -2,3 +2,19 @@ The Operating System (OS) acts as a bridge between the user and the computer har
 For example, when a user clicks on a file to open it, the mouse input is detected by the hardware and passed to the operating system. The OS then understands this request and locates the file on the storage device (hard disk or SSD). It reads the file data from the disk and loads it into RAM, which is a faster temporary memory used for processing.
 After the data is loaded into RAM, the CPU executes the required instructions to process the file. Finally, the OS sends the output to the display so the user can see the file content.
 In this way, the operating system manages all hardware components and makes communication between the user and the computer simple, efficient, and possible.
+
+1) User Mode
+
+This is a mode where user programs run safely and do not directly access hardware
+
+Programs like browser, games, text editors run here
+They cannot directly control CPU, memory, or disk
+They must request the OS to do hardware work for them
+
+2) Kernel Mode
+
+This is a privileged mode where the operating system core runs and directly controls hardware
+
+OS kernel can directly access CPU, memory, disk, devices
+Handles important tasks like process management, memory management, I/O control
+User programs cannot directly run in this mode
