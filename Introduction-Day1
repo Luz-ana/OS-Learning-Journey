@@ -18,3 +18,13 @@ This is a privileged mode where the operating system core runs and directly cont
 OS kernel can directly access CPU, memory, disk, devices
 Handles important tasks like process management, memory management, I/O control
 User programs cannot directly run in this mode
+
+
+
+# Abstraction :
+  Simply abstraction means hiding the unnecessary part and only showing up the necessary details 
+# Operating system must implement abstraction because 
+  Without abstraction
+    User needs to perform all the task manually for even saving a simple file giving instructions on how it should store files in the disk and so one
+  With abstraction 
+    User should only click some buttons and use GUI to save the file simply where user need not care about the things happening when user perform's such actions.
