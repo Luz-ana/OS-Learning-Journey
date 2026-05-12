@@ -1,0 +1,201 @@
+History of Operating Systems (Simple Beginner Version)
+
+Operating systems (OS) changed slowly over many years.
+As computers improved, operating systems also improved.
+
+To understand OS history, we study different generations of computers because each generation had different technology and different types of operating systems.
+
+The changes did not happen suddenly.
+Old and new technologies existed together for some time.
+
+Charles Babbage and the First Computer Idea
+
+The first real idea of a digital computer was given by Charles Babbage.
+
+He designed a machine called the Analytical Engine.
+
+But he could not fully build it because machines at that time were not accurate enough.
+
+This machine had:
+
+gears
+wheels
+mechanical parts
+
+It did not have an operating system.
+
+Ada Lovelace
+
+Ada Lovelace worked with Babbage.
+
+She is called the first programmer in history.
+
+The programming language Ada was named after her.
+
+First Generation (1945–1955)
+Vacuum Tube Computers
+
+Early computers used vacuum tubes.
+
+These computers were:
+
+very large
+very slow
+very expensive
+very weak compared to modern computers
+
+Some famous early computers were:
+
+ENIAC
+Colossus
+Mark I
+Alan Turing also worked on early computers.
+
+These computers could take seconds just to solve simple calculations.
+
+Programming in First Generation
+
+There were:
+
+no operating systems
+no programming languages
+no assembly language
+
+Programmers directly worked with machine instructions.
+
+Sometimes they even connected wires manually using plugboards.
+
+The same people:
+
+designed the computer
+built it
+programmed it
+operated it
+repaired it
+
+Everything was done manually.
+
+How Computers Were Used
+
+A programmer:
+
+booked computer time
+went to the computer room
+connected cables or plugboards
+ran the program
+
+Programs were mostly used for:
+
+mathematical calculations
+artillery calculations
+tables of sine and cosine values
+Punched Cards
+
+Later, punched cards were introduced.
+
+Instead of manually wiring cables, programs were written on cards.
+
+The computer read instructions from these cards.
+
+This made work a little easier.
+
+Second Generation (1955–1965)
+Transistors and Batch Systems
+
+In the second generation, transistors replaced vacuum tubes.
+
+This made computers:
+
+smaller
+faster
+more reliable
+
+Now computers could run properly for longer periods.
+
+Because of this, different people got different jobs:
+
+designers
+programmers
+operators
+maintenance workers
+Mainframe Computers
+
+Large computers called mainframes were used.
+
+Only:
+
+big companies
+universities
+government offices
+
+could afford them.
+
+These computers were kept inside special air-conditioned rooms.
+
+How Programming Worked
+
+The programmer:
+
+wrote the program on paper
+converted it into punched cards
+gave the cards to the operator
+waited for the output
+
+The operator:
+
+loaded the cards into the computer
+ran the program
+printed the output
+
+This wasted a lot of time because operators had to move around constantly.
+
+Batch System (Very Important)
+
+To reduce wasted time, the batch system was introduced.
+
+Idea of Batch System
+
+Instead of running one job at a time:
+
+many jobs were collected together
+all jobs were stored on magnetic tape
+the computer processed them one after another automatically
+
+This group of jobs was called a batch.
+
+Simple Flow of Batch Processing
+Programmers submit punched cards
+Cards are copied to magnetic tape
+Main computer reads jobs from tape
+Computer runs jobs automatically
+Output is stored on another tape
+Output is later printed
+
+This reduced computer idle time.
+
+Early Operating System
+
+A simple program was used to:
+
+load jobs
+run jobs
+automatically start the next job
+
+This program became the early form of an operating system.
+
+Control Cards
+
+Special cards were used to control jobs.
+
+Examples:
+
+$JOB → information about the job
+$FORTRAN → load FORTRAN compiler
+$LOAD → load compiled program
+$RUN → run the program
+$END → end of job
+
+These control cards later became the idea behind:
+
+shells
+command line interpreters
